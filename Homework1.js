@@ -6,8 +6,7 @@
 const dash = '-';
 const arr1 = ['a', 'e', 'i', 'o', 'u' ];
 
-function replaceLetters( str, arr)
-{
+const replaceLetters = (str,arr) =>{
     let len = str.length;
     for(let i = 0; i<len; i++)
     {   
@@ -27,7 +26,7 @@ console.log(replaceLetters( "node.js", arr1));
  */
 const arr2 = [5, 2, 'a', 4, '7', true, 'b', 'c', 7, '8', false];
 
-function sumArray(arr)
+const sumArray = (arr) =>
  {
     let sum = 0;
     arr.forEach(element => {
@@ -47,7 +46,7 @@ function sumArray(arr)
   */
  const arr3 = ['hi', 'hi', 'hello', 'world', 'hello', 'hi' , 'greetings'];
 
- function countingWords(arr)
+ const countingWords = (arr) =>
  {
      let myMap = new Map();
 
@@ -100,7 +99,7 @@ function sumArray(arr)
 
             ];
 
-function createAnimals(arr)
+const createAnimals = (arr) =>
 {
     let animals = {};
     let len = arr.length;
